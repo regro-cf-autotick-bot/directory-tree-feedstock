@@ -1,5 +1,5 @@
 {% set name = "Directory-Tree" %}
-{% set version = "0.0.3" %}
+{% set version = "0.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rahulbordoloi/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 620d8d8cfaf07903379338d3e9b9de58da37a85ae332e92389bb8d98e11ca2d0
+  sha256: 1c93a12f8a12ba36625bd2a72bad2ad49dbc8829274552fb4125bf3c7ca95aaa
 
 build:
   noarch: python
@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://github.com/rahulbordoloi/Directory-Tree/
-  summary: Python Utility Package that displays out the Tree Structure of a Particular Directory. 
+  summary: Python Utility Package that displays out the Tree Structure of a Particular Directory.
   license: GPL-3.0-only
   license_file: LICENSE
 
