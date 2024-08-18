@@ -1,13 +1,13 @@
 {% set name = "Directory-Tree" %}
-{% set version = "0.0.4" %}
+{% set version = "1.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/rahulbordoloi/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 1c93a12f8a12ba36625bd2a72bad2ad49dbc8829274552fb4125bf3c7ca95aaa
+  url: https://github.com/rahulbordoloi/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
+  sha256: ca4639595827fa8398ef424c6050b86069decee34953c768b761f8edb0e3ba1a
 
 build:
   noarch: python
